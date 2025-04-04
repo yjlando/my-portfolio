@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #27873a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: default; /* makes sure they are not clickable */
+}
+
+.skill-btn:hover {
+    background-color: #45a049; /* Darken the color when hovered */
+}
+
+.projects-container {
+    display: flex;                      /* Use Flexbox to arrange items in a row */
+    justify-content: space-between;     /* Space between items */
+    align-items: center;               /* Center items vertically */
+    margin-top: 20px;                  /* Space above the projects section */
+    flex-direction: row;               /* Arrange items in a row */
+    flex-wrap: wrap;                     /* Make the cards wrap if the screen is small */
+}
+
+.project-card {
+    width: calc(50% - 20px);             /* Set each card to take up 33% of the width, minus margin */
+    box-sizing: border-box;              /* Include padding and borders in the width calculation */
+    background-color: #fff;              /* Optional: Background color for each card */
+    padding: 15px;                       /* Add padding inside the card */
+    border-radius: 8px;                  /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better card effect */
+}
+
+.project-card img {
+    width: 100%;                         /* Make the image take full width of the card */
+    max-width: 300px;                    /* Optional: Limit image width */
+    height: auto;                        /* Maintain aspect ratio */
+    border-radius: 8px;                  /* Optional: Rounded corners for image */
+    margin-bottom: 10px;                 /* Optional: Space between image and text */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #27873a;
+    color: white;
+}
