@@ -23,12 +23,14 @@ The **Recipe Book** is a web application designed to help users organize, save, 
   - Users can add their favorite recipes.
   - Categorize recipes by type (e.g., breakfast, lunch, dinner).
   - View detailed instructions for each recipe.
-2. Financial Literacy Learning Platform
+  **Note:** This project is still a work in progress and more features will be added in the future.
+### 2. Financial Literacy Learning Platform
 The **Financial Literacy Learning Platform** educates users about personal finance topics like budgeting, investing, and saving. The platform includes interactive lessons and quizzes to test users' comprehension.
 - **Key Features**:
   - Interactive lessons on personal finance.
   - Quizzes to test users' comprehension.
   - Progress tracking to monitor learning.
+  **Note:** This project is still a work in progress and more features will be added in the future.
 ## Contact
 Feel free to get in touch with me if you have any questions or feedback.
 - **Email**: yvlando16@gmail.com
